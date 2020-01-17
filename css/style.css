@@ -3,7 +3,7 @@ body
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2
+h2, h3
 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -58,7 +58,7 @@ address
     margin-left: auto;
     margin-right: auto;
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 0.75em;
     width: 60%;
 }
 
@@ -78,6 +78,18 @@ address
     font-size: 0.75em;
 }
 
+#email
+{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 0.75em;
+}
+
+a
+{
+    color: inherit;
+}
+
 @media only screen and (max-width: 600px) {
     
     .logo
@@ -86,7 +98,7 @@ address
         margin-left: auto;
         margin-right: auto;
         padding-top: 2.5em;
-        padding-bottom: 2em;
+        padding-bottom: 0.75em;
         width: 85%;
     }
 
@@ -96,5 +108,16 @@ address
         margin-left: auto;
         margin-right: auto;
         width: 75%;
+    }
+
+    #footer
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #legal
+    {   
+        font-size: 0.75em;
     }
 }
